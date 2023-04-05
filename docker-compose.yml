@@ -22,3 +22,5 @@ services:
       - ./Config:/mnt/ark-ded/common/Config
       - ./modlist.ini:/mnt/ark-ded/mods/modlist.ini:ro
       - ./Mods:/mnt/ark-ded/mods/Mods
+#    command: tail -F /dev/null
+
